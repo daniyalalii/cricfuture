@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Virat Kohli",
+        "age": 35,
+        "style": "Right-hand batsman",
+        "talent": "Chase master",
+        "iccTrophies": 3,
+        "rating": 95,
+        "image": "assets/players/virat.png",
+        "team": "India"
+    },
+    {
+        "name": "Babar Azam",
+        "age": 29,
+        "style": "Right-hand batsman",
+        "talent": "Cover drives",
+        "iccTrophies": 0,
+        "rating": 88,
+        "image": "assets/players/babar.png",
+        "team": "Pakistan"
+    }
+]

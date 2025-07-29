@@ -5,6 +5,40 @@ body {
     color: #fff;
 }
 
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #0f2027;
+    color: cyan;
+    font-size: 1.2rem;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-spinner {
+    border: 6px solid #333;
+    border-top: 6px solid cyan;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -23,7 +57,6 @@ header {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    outline: none;
     font-size: 1rem;
 }
 
@@ -42,7 +75,7 @@ main {
 }
 
 .player-card {
-    min-width: 120px;
+    min-width: 160px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
     padding: 10px;
@@ -64,11 +97,71 @@ main {
     padding: 20px;
     border-radius: 10px;
     color: #fff;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-    .player-scroller {
+.player-info img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.player-details {
+    flex: 1;
+}
+
+.stat-bar {
+    background: #fff2;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.stat-bar span {
+    display: block;
+    height: 10px;
+    background: lime;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer button {
+    padding: 10px 20px;
+    background: #00f2ff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    header {
         flex-direction: column;
-        overflow-x: hidden;
+        gap: 10px;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .player-card {
+        min-width: 100px;
+    }
+
+    .player-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .player-info img {
+        width: 120px;
+    }
+
+    .player-details {
+        width: 100%;
     }
 }
