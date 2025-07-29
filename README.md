@@ -45,3 +45,8 @@ Fully responsive across:
 - ✅ Desktop
 
 Cards, headers, buttons, and popup panels adjust fluidly.
+
+## 📄 License
+- MIT — Free to use and modify. 
+- Made with ❤️ by Daniyal ALi
+
