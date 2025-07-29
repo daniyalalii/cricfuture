@@ -51,16 +51,12 @@ body {
     overflow-x: auto;
     gap: 16px;
     padding: 20px;
-
     scrollbar-width: none;
-    /* Firefox */
     -ms-overflow-style: none;
-    /* IE/Edge */
 }
 
 .player-list::-webkit-scrollbar {
     display: none;
-    /* Chrome, Safari, Opera */
 }
 
 .player-card {
@@ -124,7 +120,6 @@ body {
     }
 }
 
-/* Player Detail Panel */
 .player-info-panel {
     position: fixed;
     top: 50%;
@@ -172,7 +167,6 @@ body {
     transition: width 1s ease-in-out;
 }
 
-/* Prevent card display during load */
 #playerList {
     display: none;
 }

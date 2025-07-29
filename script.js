@@ -82,11 +82,8 @@ setTimeout(() => {
   bar.style.width = player.rating + '%';
 }, 100);
 
-
-        // Show panel
         infoPanel.style.display = 'block';
 
-        // Close button
         infoPanel.querySelector('.close-btn').onclick = () => {
             infoPanel.style.display = 'none';
         };

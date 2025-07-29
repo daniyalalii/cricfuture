@@ -46,7 +46,6 @@ function loadTeam(teamName) {
     });
 }
 
-// You can reuse this if script.js was already loaded
 function showPlayerDetails(player) {
     const selectSound = new Audio('assets/sounds/select.mp3');
     selectSound.play().catch(() => { });
