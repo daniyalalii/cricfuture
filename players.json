@@ -6,7 +6,7 @@
         "talent": "Chase master",
         "iccTrophies": 3,
         "rating": 95,
-        "image": "assets/players/virat.png",
+        "image": "assets/players/virat.jpg",
         "team": "India"
     },
     {
@@ -16,7 +16,7 @@
         "talent": "Six-hitting machine",
         "iccTrophies": 5,
         "rating": 89,
-        "image": "assets/players/rohit.png",
+        "image": "assets/players/rohit.jpg",
         "team": "India"
     },
     {
@@ -26,7 +26,7 @@
         "talent": "Yorker specialist",
         "iccTrophies": 1,
         "rating": 87,
-        "image": "assets/players/bumrah.png",
+        "image": "assets/players/bumrah.jpg",
         "team": "India"
     },
     {
@@ -36,7 +36,7 @@
         "talent": "Best fielder in the world",
         "iccTrophies": 3,
         "rating": 85,
-        "image": "assets/players/jadeja.png",
+        "image": "assets/players/jadeja.jpg",
         "team": "India"
     },
     {
@@ -46,7 +46,7 @@
         "talent": "Versatile batter",
         "iccTrophies": 1,
         "rating": 78,
-        "image": "assets/players/rahul.png",
+        "image": "assets/players/rahul.jpg",
         "team": "India"
     },
     {
@@ -56,7 +56,7 @@
         "talent": "Cover drives",
         "iccTrophies": 0,
         "rating": 88,
-        "image": "assets/players/babar.png",
+        "image": "assets/players/babar.jpg",
         "team": "Pakistan"
     },
     {
@@ -66,7 +66,7 @@
         "talent": "Swing and pace",
         "iccTrophies": 0,
         "rating": 86,
-        "image": "assets/players/shaheen.png",
+        "image": "assets/players/shaheen.jpg",
         "team": "Pakistan"
     },
     {
@@ -76,7 +76,7 @@
         "talent": "Consistent performer",
         "iccTrophies": 0,
         "rating": 82,
-        "image": "assets/players/rizwan.png",
+        "image": "assets/players/rizwan.jpg",
         "team": "Pakistan"
     },
     {
@@ -86,7 +86,7 @@
         "talent": "Leg-spin and power-hitting",
         "iccTrophies": 0,
         "rating": 77,
-        "image": "assets/players/shadab.png",
+        "image": "assets/players/shadab.jpg",
         "team": "Pakistan"
     },
     {
@@ -96,7 +96,7 @@
         "talent": "Aggressive batting",
         "iccTrophies": 1,
         "rating": 80,
-        "image": "assets/players/fakhar.png",
+        "image": "assets/players/fakhar.jpg",
         "team": "Pakistan"
     },
     {
@@ -106,7 +106,7 @@
         "talent": "Googly master",
         "iccTrophies": 0,
         "rating": 84,
-        "image": "assets/players/rashid.png",
+        "image": "assets/players/rashid.jpg",
         "team": "Afghanistan"
     },
     {
@@ -116,7 +116,7 @@
         "talent": "Experienced campaigner",
         "iccTrophies": 0,
         "rating": 75,
-        "image": "assets/players/nabi.png",
+        "image": "assets/players/nabi.jpg",
         "team": "Afghanistan"
     },
     {
@@ -126,7 +126,7 @@
         "talent": "Explosive hitter",
         "iccTrophies": 0,
         "rating": 72,
-        "image": "assets/players/gurbaz.png",
+        "image": "assets/players/gurbaz.jpg",
         "team": "Afghanistan"
     },
     {
@@ -136,7 +136,7 @@
         "talent": "Mystery spinner",
         "iccTrophies": 0,
         "rating": 76,
-        "image": "assets/players/mujeeb.png",
+        "image": "assets/players/mujeeb.jpg",
         "team": "Afghanistan"
     },
     {
@@ -146,7 +146,7 @@
         "talent": "Death-over specialist",
         "iccTrophies": 0,
         "rating": 70,
-        "image": "assets/players/naveen.png",
+        "image": "assets/players/naveen.jpg",
         "team": "Afghanistan"
     },
     {
@@ -156,7 +156,7 @@
         "talent": "Pace and accuracy",
         "iccTrophies": 4,
         "rating": 90,
-        "image": "assets/players/cummins.png",
+        "image": "assets/players/cummins.jpg",
         "team": "Australia"
     },
     {
@@ -166,7 +166,7 @@
         "talent": "Unorthodox technique",
         "iccTrophies": 3,
         "rating": 89,
-        "image": "assets/players/smith.png",
+        "image": "assets/players/smith.jpg",
         "team": "Australia"
     },
     {
@@ -176,7 +176,7 @@
         "talent": "Classical technique",
         "iccTrophies": 1,
         "rating": 88,
-        "image": "assets/players/root.png",
+        "image": "assets/players/root.jpg",
         "team": "England"
     },
     {
@@ -186,7 +186,7 @@
         "talent": "Clutch performer",
         "iccTrophies": 3,
         "rating": 90,
-        "image": "assets/players/stokes.png",
+        "image": "assets/players/stokes.jpg",
         "team": "England"
     }
 ]
