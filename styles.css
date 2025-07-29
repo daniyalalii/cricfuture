@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Now Display', 'Orbitron', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: cyan;
+    text-transform: uppercase;
+}
+
+#search {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.player-scroller {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.player-card {
+    min-width: 120px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.player-card:hover {
+    transform: scale(1.05);
+}
+
+.player-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.player-info {
+    background: linear-gradient(to bottom, #ff4e50, #fc354c);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .player-scroller {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+}
