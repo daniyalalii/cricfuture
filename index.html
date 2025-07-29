@@ -11,16 +11,19 @@
 </head>
 
 <body>
-    <!-- Loading Screen -->
     <div id="loader">
         <div class="loader-spinner"></div>
         <p>Loading CricFuture...</p>
-        <audio id="loading-audio" src="assets/sounds/loading.mp3" autoplay></audio>
+        <audio id="loading-audio" src="assets/sounds/loading.mp3" autoplay loop></audio>
     </div>
 
     <header>
         <div class="logo">CricFuture</div>
-        <input type="text" id="search" placeholder="Search Players..." />
+        <div class="top-controls">
+            <input type="text" id="search" placeholder="Search Players..." />
+            <button class="team-page-btn" onclick="window.location.href='teams.html'"
+                onmouseenter="playHover()">Teams</button>
+        </div>
     </header>
 
     <main>
@@ -31,7 +34,7 @@
     </main>
 
     <footer>
-        <button onclick="window.location.href='teams.html'">Filter by Teams →</button>
+        <p>© CricFuture</p>
     </footer>
 
     <script src="script.js"></script>

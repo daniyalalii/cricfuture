@@ -43,6 +43,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
@@ -53,6 +54,12 @@ header {
     text-transform: uppercase;
 }
 
+.top-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 #search {
     padding: 10px;
     border: none;
@@ -60,10 +67,18 @@ header {
     font-size: 1rem;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+.team-page-btn {
+    padding: 10px 15px;
+    background: #00f2ff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.team-page-btn:hover {
+    background: #00c8d1;
 }
 
 .player-scroller {
@@ -72,14 +87,29 @@ main {
     gap: 15px;
     padding: 10px 0;
     margin-bottom: 30px;
+    scroll-behavior: smooth;
+}
+
+.player-scroller::-webkit-scrollbar {
+    height: 8px;
+}
+
+.player-scroller::-webkit-scrollbar-thumb {
+    background: #00f2ff;
+    border-radius: 10px;
+}
+
+.player-scroller::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .player-card {
-    min-width: 160px;
+    min-width: 150px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
+    text-align: center;
     transition: transform 0.3s ease;
 }
 
@@ -93,13 +123,19 @@ main {
 }
 
 .player-info {
-    background: linear-gradient(to bottom, #ff4e50, #fc354c);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(to right, #111827, #1f2937);
+    color: white;
+    border-radius: 12px;
     padding: 20px;
-    border-radius: 10px;
-    color: #fff;
-    display: flex;
-    gap: 20px;
-    align-items: center;
+    z-index: 9999;
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+    transition: all 0.4s ease-in-out;
 }
 
 .player-info img {
@@ -116,12 +152,43 @@ main {
     border-radius: 10px;
     overflow: hidden;
     margin: 5px 0;
+    height: 10px;
 }
 
 .stat-bar span {
     display: block;
-    height: 10px;
+    height: 100%;
     background: lime;
+    width: 0%;
+}
+
+.team-filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.team-filters button {
+    background: #00f2ff;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.team-filters button:hover {
+    background: #00c8d1;
+}
+
+.team-filters img {
+    width: 20px;
+    height: 20px;
 }
 
 footer {
@@ -129,27 +196,34 @@ footer {
     padding: 20px;
 }
 
-footer button {
+.player-scroller {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
     padding: 10px 20px;
-    background: #00f2ff;
-    border: none;
-    border-radius: 6px;
-    font-weight: bold;
-    cursor: pointer;
+    scroll-behavior: smooth;
+    white-space: nowrap;
 }
 
+.player-card {
+    display: inline-block;
+    min-width: 150px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+
 @media screen and (max-width: 600px) {
-    header {
+    .top-controls {
         flex-direction: column;
         gap: 10px;
-    }
-
-    #search {
-        width: 100%;
-    }
-
-    .player-card {
-        min-width: 100px;
+        margin-top: 10px;
     }
 
     .player-info {
@@ -165,3 +239,4 @@ footer button {
         width: 100%;
     }
 }
+

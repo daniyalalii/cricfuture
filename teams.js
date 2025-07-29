@@ -1,33 +1,52 @@
+function playHover() {
+    const hoverSound = new Audio('assets/sounds/hover.mp3');
+    hoverSound.volume = 0.3;
+    hoverSound.play().catch(() => { }); // for autoplay restrictions
+}
+
 let players = [];
 
 fetch('players.json')
     .then(res => res.json())
     .then(data => {
         players = data;
-        filterByTeam('India'); // Default team
+    })
+    .catch(() => {
+        document.getElementById('teamError').innerText = "Failed to load player data.";
     });
 
-function filterByTeam(team) {
-    const scroller = document.getElementById('teamPlayerScroller');
-    scroller.innerHTML = '';
+function loadTeam(teamName) {
+    const container = document.getElementById('teamPlayerScroller');
+    const errorEl = document.getElementById('teamError');
+    container.innerHTML = '';
+    errorEl.textContent = '';
 
-    const teamPlayers = players.filter(p => p.team === team);
+    if (!players.length) {
+        errorEl.innerText = "Player data not available.";
+        return;
+    }
 
-    teamPlayers.forEach(player => {
+    const filtered = players.filter(p => p.team === teamName);
+
+    if (filtered.length === 0) {
+        errorEl.innerText = "No players found for this team.";
+        return;
+    }
+
+    filtered.forEach(player => {
         const card = document.createElement('div');
         card.className = 'player-card';
         card.innerHTML = `
       <img src="${player.image}" alt="${player.name}" />
       <p>${player.name}</p>
     `;
-        scroller.appendChild(card);
+        container.appendChild(card);
     });
 
     gsap.from(".player-card", {
         opacity: 0,
-        scale: 0.8,
+        y: 30,
         duration: 0.5,
-        stagger: 0.1,
-        ease: "power2.out"
+        stagger: 0.1
     });
 }

@@ -9,67 +9,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
-<style>
-    .team-filters {
-        display: flex;
-        gap: 15px;
-        margin: 20px 0;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .team-filters button {
-        background: #00f2ff;
-        border: none;
-        border-radius: 10px;
-        padding: 10px 15px;
-        font-weight: bold;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        transition: background 0.3s ease;
-    }
-
-    .team-filters button:hover {
-        background: #00c8d1;
-    }
-
-    .team-filters img {
-        width: 24px;
-        height: 24px;
-    }
-</style>
 
 <body>
     <header>
         <div class="logo">CricFuture</div>
-        <button onclick="window.location.href='index.html'">← Back to Home</button>
+        <button onclick="window.location.href='index.html'">← Back</button>
     </header>
 
     <main>
         <h2>Select a Team</h2>
         <div class="team-filters">
-            <button onclick="filterByTeam('India')">
-                <img src="assets/teams/india.png" alt="India" />
-                India
+            <button onclick="loadTeam('India')" onmouseenter="playHover()">
+                <img src="assets/teams/india.png" alt="India" /> India
             </button>
-            <button onclick="filterByTeam('Pakistan')">
-                <img src="assets/teams/pakistan.png" alt="Pakistan" />
-                Pakistan
+            <button onclick="loadTeam('Pakistan')" onmouseenter="playHover()">
+                <img src="assets/teams/pakistan.png" alt="Pakistan" /> Pakistan
             </button>
-            <button onclick="filterByTeam('Australia')">
-                <img src="assets/teams/australia.png" alt="Australia" />
-                Australia
+            <button onclick="loadTeam('Australia')" onmouseenter="playHover()">
+                <img src="assets/teams/australia.png" alt="Australia" /> Australia
             </button>
         </div>
-
         <section class="player-scroller" id="teamPlayerScroller"></section>
+        <p id="teamError" style="text-align:center;color:red;"></p>
     </main>
-
-    <footer>
-        <p>Built with ❤️ using HTML, CSS, JS, and GSAP</p>
-    </footer>
 
     <script src="teams.js"></script>
 </body>

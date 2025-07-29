@@ -10,6 +10,46 @@
         "team": "India"
     },
     {
+        "name": "Rohit Sharma",
+        "age": 36,
+        "style": "Right-hand opener",
+        "talent": "Six-hitting machine",
+        "iccTrophies": 5,
+        "rating": 89,
+        "image": "assets/players/rohit.png",
+        "team": "India"
+    },
+    {
+        "name": "Jasprit Bumrah",
+        "age": 30,
+        "style": "Right-arm fast bowler",
+        "talent": "Yorker specialist",
+        "iccTrophies": 1,
+        "rating": 87,
+        "image": "assets/players/bumrah.png",
+        "team": "India"
+    },
+    {
+        "name": "Ravindra Jadeja",
+        "age": 35,
+        "style": "All-rounder",
+        "talent": "Best fielder in the world",
+        "iccTrophies": 3,
+        "rating": 85,
+        "image": "assets/players/jadeja.png",
+        "team": "India"
+    },
+    {
+        "name": "KL Rahul",
+        "age": 31,
+        "style": "Right-hand batsman",
+        "talent": "Versatile batter",
+        "iccTrophies": 1,
+        "rating": 78,
+        "image": "assets/players/rahul.png",
+        "team": "India"
+    },
+    {
         "name": "Babar Azam",
         "age": 29,
         "style": "Right-hand batsman",
@@ -18,5 +58,195 @@
         "rating": 88,
         "image": "assets/players/babar.png",
         "team": "Pakistan"
+    },
+    {
+        "name": "Shaheen Afridi",
+        "age": 24,
+        "style": "Left-arm fast bowler",
+        "talent": "Swing and pace",
+        "iccTrophies": 0,
+        "rating": 86,
+        "image": "assets/players/shaheen.png",
+        "team": "Pakistan"
+    },
+    {
+        "name": "Mohammad Rizwan",
+        "age": 31,
+        "style": "Wicketkeeper-batsman",
+        "talent": "Consistent performer",
+        "iccTrophies": 0,
+        "rating": 82,
+        "image": "assets/players/rizwan.png",
+        "team": "Pakistan"
+    },
+    {
+        "name": "Shadab Khan",
+        "age": 25,
+        "style": "All-rounder",
+        "talent": "Leg-spin and power-hitting",
+        "iccTrophies": 0,
+        "rating": 77,
+        "image": "assets/players/shadab.png",
+        "team": "Pakistan"
+    },
+    {
+        "name": "Fakhar Zaman",
+        "age": 33,
+        "style": "Left-hand opener",
+        "talent": "Aggressive batting",
+        "iccTrophies": 1,
+        "rating": 80,
+        "image": "assets/players/fakhar.png",
+        "team": "Pakistan"
+    },
+    {
+        "name": "Rashid Khan",
+        "age": 25,
+        "style": "Leg-spin bowler",
+        "talent": "Googly master",
+        "iccTrophies": 0,
+        "rating": 84,
+        "image": "assets/players/rashid.png",
+        "team": "Afghanistan"
+    },
+    {
+        "name": "Mohammad Nabi",
+        "age": 39,
+        "style": "All-rounder",
+        "talent": "Experienced campaigner",
+        "iccTrophies": 0,
+        "rating": 75,
+        "image": "assets/players/nabi.png",
+        "team": "Afghanistan"
+    },
+    {
+        "name": "Rahmanullah Gurbaz",
+        "age": 22,
+        "style": "Wicketkeeper-batsman",
+        "talent": "Explosive hitter",
+        "iccTrophies": 0,
+        "rating": 72,
+        "image": "assets/players/gurbaz.png",
+        "team": "Afghanistan"
+    },
+    {
+        "name": "Mujeeb Ur Rahman",
+        "age": 23,
+        "style": "Off-spin bowler",
+        "talent": "Mystery spinner",
+        "iccTrophies": 0,
+        "rating": 76,
+        "image": "assets/players/mujeeb.png",
+        "team": "Afghanistan"
+    },
+    {
+        "name": "Naveen-ul-Haq",
+        "age": 24,
+        "style": "Right-arm fast bowler",
+        "talent": "Death-over specialist",
+        "iccTrophies": 0,
+        "rating": 70,
+        "image": "assets/players/naveen.png",
+        "team": "Afghanistan"
+    },
+    {
+        "name": "Pat Cummins",
+        "age": 31,
+        "style": "Right-arm fast bowler",
+        "talent": "Pace and accuracy",
+        "iccTrophies": 4,
+        "rating": 90,
+        "image": "assets/players/cummins.png",
+        "team": "Australia"
+    },
+    {
+        "name": "Steve Smith",
+        "age": 35,
+        "style": "Right-hand batsman",
+        "talent": "Unorthodox technique",
+        "iccTrophies": 3,
+        "rating": 89,
+        "image": "assets/players/smith.png",
+        "team": "Australia"
+    },
+    {
+        "name": "Glenn Maxwell",
+        "age": 35,
+        "style": "All-rounder",
+        "talent": "360-degree hitter",
+        "iccTrophies": 2,
+        "rating": 83,
+        "image": "assets/players/maxwell.png",
+        "team": "Australia"
+    },
+    {
+        "name": "Mitchell Starc",
+        "age": 34,
+        "style": "Left-arm fast bowler",
+        "talent": "Swing and pace",
+        "iccTrophies": 3,
+        "rating": 87,
+        "image": "assets/players/starc.png",
+        "team": "Australia"
+    },
+    {
+        "name": "David Warner",
+        "age": 37,
+        "style": "Left-hand opener",
+        "talent": "Aggressive batting",
+        "iccTrophies": 3,
+        "rating": 85,
+        "image": "assets/players/warner.png",
+        "team": "Australia"
+    },
+    {
+        "name": "Joe Root",
+        "age": 33,
+        "style": "Right-hand batsman",
+        "talent": "Classical technique",
+        "iccTrophies": 1,
+        "rating": 88,
+        "image": "assets/players/root.png",
+        "team": "England"
+    },
+    {
+        "name": "Ben Stokes",
+        "age": 33,
+        "style": "All-rounder",
+        "talent": "Clutch performer",
+        "iccTrophies": 3,
+        "rating": 90,
+        "image": "assets/players/stokes.png",
+        "team": "England"
+    },
+    {
+        "name": "Jos Buttler",
+        "age": 33,
+        "style": "Wicketkeeper-batsman",
+        "talent": "Destructive finisher",
+        "iccTrophies": 2,
+        "rating": 84,
+        "image": "assets/players/buttler.png",
+        "team": "England"
+    },
+    {
+        "name": "Jofra Archer",
+        "age": 29,
+        "style": "Right-arm fast bowler",
+        "talent": "Express pace",
+        "iccTrophies": 1,
+        "rating": 82,
+        "image": "assets/players/archer.png",
+        "team": "England"
+    },
+    {
+        "name": "Jonny Bairstow",
+        "age": 34,
+        "style": "Right-hand batsman",
+        "talent": "Aggressive opener",
+        "iccTrophies": 1,
+        "rating": 80,
+        "image": "assets/players/bairstow.png",
+        "team": "England"
     }
 ]
