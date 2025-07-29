@@ -170,36 +170,6 @@
         "team": "Australia"
     },
     {
-        "name": "Glenn Maxwell",
-        "age": 35,
-        "style": "All-rounder",
-        "talent": "360-degree hitter",
-        "iccTrophies": 2,
-        "rating": 83,
-        "image": "assets/players/maxwell.png",
-        "team": "Australia"
-    },
-    {
-        "name": "Mitchell Starc",
-        "age": 34,
-        "style": "Left-arm fast bowler",
-        "talent": "Swing and pace",
-        "iccTrophies": 3,
-        "rating": 87,
-        "image": "assets/players/starc.png",
-        "team": "Australia"
-    },
-    {
-        "name": "David Warner",
-        "age": 37,
-        "style": "Left-hand opener",
-        "talent": "Aggressive batting",
-        "iccTrophies": 3,
-        "rating": 85,
-        "image": "assets/players/warner.png",
-        "team": "Australia"
-    },
-    {
         "name": "Joe Root",
         "age": 33,
         "style": "Right-hand batsman",
@@ -217,36 +187,6 @@
         "iccTrophies": 3,
         "rating": 90,
         "image": "assets/players/stokes.png",
-        "team": "England"
-    },
-    {
-        "name": "Jos Buttler",
-        "age": 33,
-        "style": "Wicketkeeper-batsman",
-        "talent": "Destructive finisher",
-        "iccTrophies": 2,
-        "rating": 84,
-        "image": "assets/players/buttler.png",
-        "team": "England"
-    },
-    {
-        "name": "Jofra Archer",
-        "age": 29,
-        "style": "Right-arm fast bowler",
-        "talent": "Express pace",
-        "iccTrophies": 1,
-        "rating": 82,
-        "image": "assets/players/archer.png",
-        "team": "England"
-    },
-    {
-        "name": "Jonny Bairstow",
-        "age": 34,
-        "style": "Right-hand batsman",
-        "talent": "Aggressive opener",
-        "iccTrophies": 1,
-        "rating": 80,
-        "image": "assets/players/bairstow.png",
         "team": "England"
     }
 ]
