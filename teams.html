@@ -4,34 +4,41 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teams - CricFuture</title>
+    <title>Teams</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="logo">CricFuture</div>
-        <button onclick="window.location.href='index.html'">← Back</button>
-    </header>
 
-    <main>
-        <h2>Select a Team</h2>
-        <div class="team-filters">
-            <button onclick="loadTeam('India')" onmouseenter="playHover()">
-                <img src="assets/teams/india.png" alt="India" /> India
-            </button>
-            <button onclick="loadTeam('Pakistan')" onmouseenter="playHover()">
-                <img src="assets/teams/pakistan.png" alt="Pakistan" /> Pakistan
-            </button>
-            <button onclick="loadTeam('Australia')" onmouseenter="playHover()">
-                <img src="assets/teams/australia.png" alt="Australia" /> Australia
-            </button>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <h2>Loading Teams...</h2>
+        <div class="loading-spinner"></div>
+        <audio id="loading-audio" src="assets/sounds/loading.mp3" autoplay loop></audio>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">Select Team</div>
+        <div class="controls">
+            <select id="teamSelect" onchange="loadTeam(this.value)" onmouseenter="playHover()">
+                <option value="">-- Choose Team --</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Australia">Australia</option>
+                <option value="England">England</option>
+                <option value="West Indies">West Indies</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Bangladesh">Bangladesh</option>
+            </select>
+            <button onclick="window.location.href='index.html'" onmouseenter="playHover()">Back</button>
         </div>
-        <section class="player-scroller" id="teamPlayerScroller"></section>
-        <p id="teamError" style="text-align:center;color:red;"></p>
-    </main>
+    </div>
+
+    <div id="teamError" class="error-msg"></div>
+    <div class="player-list" id="teamPlayerScroller"></div>
 
     <script src="teams.js"></script>
 </body>

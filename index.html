@@ -6,36 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CricFuture</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="loader">
-        <div class="loader-spinner"></div>
-        <p>Loading CricFuture...</p>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <h2>Loading cricFuture...</h2>
+        <div class="loading-spinner"></div>
         <audio id="loading-audio" src="assets/sounds/loading.mp3" autoplay loop></audio>
     </div>
 
-    <header>
+    <div class="header">
         <div class="logo">CricFuture</div>
-        <div class="top-controls">
-            <input type="text" id="search" placeholder="Search Players..." />
-            <button class="team-page-btn" onclick="window.location.href='teams.html'"
-                onmouseenter="playHover()">Teams</button>
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search player..." />
+            <button onclick="window.location.href='teams.html'" onmouseenter="playHover()">Teams</button>
         </div>
-    </header>
+    </div>
 
-    <main>
-        <section class="player-scroller" id="playerScroller"></section>
-        <section class="player-info" id="playerInfo">
-            <h2>Select a player to see details</h2>
-        </section>
-    </main>
-
-    <footer>
-        <p>© CricFuture</p>
-    </footer>
+    <div class="player-list" id="playerList"></div>
 
     <script src="script.js"></script>
 </body>
