@@ -2,7 +2,7 @@ let players = [];
 
 function playHover() {
     const hoverSound = new Audio('assets/sounds/hover.mp3');
-    hoverSound.volume = 0.3;
+    hoverSound.volume = 999;
     hoverSound.play().catch(() => { });
 }
 
